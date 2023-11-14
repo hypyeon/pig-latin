@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig Latin</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&family=Roboto+Mono&family=Rubik+Mono+One&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <h1>Pig Latin</h1>
+    <form>
+        <label for="textarea">
+            Write a sentence or a word, we'll turn it into Pig Latin.
+        </label> <br>
+        <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Type here"></textarea> <br>
+        <button type="submit">Generate</button> <br>
+        <button type="reset">Try again</button>
+    </form>
+    <div>
+        <p id="result"></p>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
