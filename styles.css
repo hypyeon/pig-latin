@@ -8,6 +8,15 @@ body {
     background-color: black;
 }
 
+h1 {
+    position: absolute;
+    color: white;
+    font-family: Roboto Mono;
+    left: 50%;
+    top: 23%;
+    transform: translate(-50%,-50%);
+}
+
 form {
     position: absolute;
     top: 50%;
@@ -36,6 +45,10 @@ button {
     margin-bottom: 10px;
 }
 
+#reset {
+    background-color: red;
+}
+
 #result {
     color: white;
     font-family: Roboto Mono;
@@ -62,6 +75,6 @@ button {
     font-family: Roboto;
 }
 
-input:focus,  {
+input:focus, #textarea {
     outline: none !important;
 }
