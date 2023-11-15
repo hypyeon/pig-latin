@@ -1,5 +1,5 @@
 ## Testing
-`  
+```
 Describe: pigLatinRun()
  
 Test: "It will add 'way' to the end of words that begin with a vowel."  
@@ -13,4 +13,4 @@ Expected Output: "odecay"
 Test: "If the first consonants include "qu", move the "q" and the "u." to the end and "ay" will be added at the end."
 Code: pigLatin("quick");  
 Expected Output: "ickquay"  
-`
+```
